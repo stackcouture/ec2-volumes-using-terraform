@@ -8,14 +8,6 @@ This Terraform project provisions an EC2 instance with:
 
 ---
 
-## 📁 Project Structure
-
-.
-├── main.tf # Terraform resources and configuration
-├── variables.tf # Input variables (not included here)
-├── outputs.tf # Output values (e.g., public IP)
-├── my-ec2key.pem # Auto-generated SSH private key (ignored in .gitignore)
-
 
 ---
 
@@ -29,16 +21,18 @@ This Terraform project provisions an EC2 instance with:
 
 ## 🚀 Usage
 
-### 1. Initialize
+### 
 
 ```bash
-terraform init
+1. Initialize
+   terraform init
+
 2. Plan
+   terraform plan
 
-terraform plan
 3. Apply
+   terraform apply
 
-terraform apply
 After deployment, Terraform will output the public IP of the EC2 instance.
 
 🔑 SSH Access
