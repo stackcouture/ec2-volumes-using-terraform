@@ -8,9 +8,6 @@ This Terraform project provisions an EC2 instance with:
 
 ---
 
-
----
-
 ## 🔧 Prerequisites
 
 - Terraform CLI (v1.0+)
