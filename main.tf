@@ -34,7 +34,7 @@ resource "aws_instance" "dev" {
 
 resource "aws_ebs_volume" "extra" {
   availability_zone = aws_instance.dev.availability_zone
-  size              = 25
+  size              = 20
   type              = "gp2"
   encrypted         = true
   kms_key_id        = aws_kms_key.ebs_encryption.arn
